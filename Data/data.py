@@ -43,11 +43,10 @@ def change_to_classification_data(data, point_at_odd):
     
     return data
         
-FILE_NAME = 'Results_season_22_23_NP.csv'
-def main_data():
-    data_results = raw_data(FILE_NAME)
+def main_data(file_name, point_at_odd):
+    data_results = raw_data(file_name)
     data_results = rename_and_crop_some_columns(data_results)
     data_results = clean_data(data_results, ot=False)
-    # data_results = change_to_classification_data(data_results, point_at_odd=225)
+    data_results = change_to_classification_data(data_results, point_at_odd)
 
     return data_results

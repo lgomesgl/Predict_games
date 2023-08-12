@@ -9,7 +9,7 @@ data = main_data()
 
 plt.subplot(2, 2, 1)
 sns.barplot(data=data, x='Home', y='Home_points')
-plt.xticks(rotation=90)
+plt.xticks(rotation=90) 
 
 plt.subplot(2, 2, 2)
 sns.barplot(data=data, x='Home', y='Away_points')
