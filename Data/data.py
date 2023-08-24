@@ -83,7 +83,7 @@ def new_columns_from_conference(data_results, data_conference):
     data['PA/G_AT'] = pa_g_away
     data['SRS_AT'] = srs_away    
     
-    data = data[['Day','Month','Time','Arena','Home','Home_points','Away','Away_points','W/L%_HT','GB_HT','PS/G_HT','PA/G_HT','SRS_HT','W/L%_AT','GB_AT','PS/G_AT','PA/G_AT','SRS_AT','Points']]
+    data = data[['Day','Month','Time','Home','Home_points','Away','Away_points','W/L%_HT','GB_HT','PS/G_HT','PA/G_HT','SRS_HT','W/L%_AT','GB_AT','PS/G_AT','PA/G_AT','SRS_AT','Points']]
     # data = data[['Day','Month','Time','Arena','Home','Home_points','Away','Away_points','SRS_HT','SRS_AT','Points']]
     return data
         

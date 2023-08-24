@@ -5,6 +5,7 @@ def proportion_data(data):
     '''
     pro_1 = data['Points'].value_counts(normalize=True)[1]
     pro_0 = data['Points'].value_counts(normalize=True)[0]
+    print(data['Points'].value_counts(normalize=True))
 
     if pro_1/pro_0 > 0.818 and pro_1/pro_0 < 1.22:
         return 'Accuracy_score'

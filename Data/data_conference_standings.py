@@ -16,7 +16,7 @@ def clean_data(data):
     
     return data
 
-PATH = 'D:\LUCAS\Project_nba\Dataset\Conference_Standings_22_23_NP.xlsx'
+PATH = 'D:\LUCAS\Project_nba\Database\Conference_Standings_22_23_NP.xlsx'
 def main_data_conference():
     data = read_data(PATH)
     data = clean_data(data)
