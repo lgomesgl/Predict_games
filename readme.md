@@ -32,3 +32,8 @@ Model_SVC() :72.37% accuracy with std: 0.02
 Model_RandomForestClassifier() :69.12% accuracy with std: 0.03
 Model_XGBClassifier() :61.53% accuracy with std: 0.12
 Model_SVC() :72.62% accuracy with std: 0.01
+
+0                           RandomForestClassifier()  74.12% std: 0.03  0.636 std: 0.02
+1  XGBClassifier(base_score=None, booster=None, c...  69.96% std: 0.05  0.609 std: 0.03
+2  SVC(class_weight='balanced', kernel='linear', ...   55.86% std: 0.1   0.63 std: 0.03
+3                                      BernoulliNB()  68.12% std: 0.02  0.626 std: 0.02
